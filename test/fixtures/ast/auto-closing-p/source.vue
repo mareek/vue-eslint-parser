@@ -4,4 +4,6 @@
     <hr>
     <p>3rd sentence
     <div></div>
+    <p>4th sentence
+    <table></table>
 </template>

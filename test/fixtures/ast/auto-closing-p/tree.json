@@ -1,7 +1,7 @@
 [
     {
         "type": "VElement",
-        "text": "<template>\n    <p>1th sentence\n    <p>2nd sentence\n    <hr>\n    <p>3rd sentence\n    <div></div>\n</template>",
+        "text": "<template>\n    <p>1th sentence\n    <p>2nd sentence\n    <hr>\n    <p>3rd sentence\n    <div></div>\n    <p>4th sentence\n    <table></table>\n</template>",
         "children": [
             {
                 "type": "VStartTag",
@@ -89,6 +89,43 @@
                     {
                         "type": "VEndTag",
                         "text": "</div>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "VText",
+                "text": "\n    ",
+                "children": []
+            },
+            {
+                "type": "VElement",
+                "text": "<p>4th sentence\n    ",
+                "children": [
+                    {
+                        "type": "VStartTag",
+                        "text": "<p>",
+                        "children": []
+                    },
+                    {
+                        "type": "VText",
+                        "text": "4th sentence\n    ",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "VElement",
+                "text": "<table></table>",
+                "children": [
+                    {
+                        "type": "VStartTag",
+                        "text": "<table>",
+                        "children": []
+                    },
+                    {
+                        "type": "VEndTag",
+                        "text": "</table>",
                         "children": []
                     }
                 ]

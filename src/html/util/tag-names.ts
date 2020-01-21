@@ -43,13 +43,13 @@ export const HTML_CAN_BE_LEFT_OPEN_TAGS = new Set([
 /**
  * https://github.com/vuejs/vue/blob/e4da249ab8ef32a0b8156c840c9d2b9773090f8a/src/platforms/web/compiler/util.js#L18
  */
-export const HTML_NON_FHRASING_TAGS = new Set([
+export const HTML_NON_PHRASING_TAGS = new Set([
     "address", "article", "aside", "base", "blockquote", "body", "caption", 
     "col", "colgroup", "dd", "details", "dialog", "div", "dl", "dt", "fieldset", 
     "figcaption", "figure", "footer", "form", "h1", "h2", "h3", "h4", "h5", 
     "h6", "head", "header", "hgroup", "hr", "html", "legend", "li", "menuitem", 
     "meta", "optgroup", "option", "param", "rp", "rt", "source", "style", 
-    "summary", "tbody", "td", "tfoot", "th", "thead", "title", "tr", "track",
+    "summary", "table", "tbody", "td", "tfoot", "th", "thead", "title", "tr", "track",
 ])
 
 /**

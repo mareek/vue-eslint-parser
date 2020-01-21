@@ -31,7 +31,7 @@ import {
 } from "./util/attribute-names"
 import {
     HTML_CAN_BE_LEFT_OPEN_TAGS,
-    HTML_NON_FHRASING_TAGS,
+    HTML_NON_PHRASING_TAGS,
     HTML_RAWTEXT_TAGS,
     HTML_RCDATA_TAGS,
     HTML_VOID_ELEMENT_TAGS,
@@ -376,7 +376,7 @@ export class Parser {
             return
         }
 
-        if (element.name === "p" && HTML_NON_FHRASING_TAGS.has(name)) {
+        if (element.name === "p" && HTML_NON_PHRASING_TAGS.has(name)) {
             this.popElementStack()
         }
         if (element.name === name && HTML_CAN_BE_LEFT_OPEN_TAGS.has(name)) {
